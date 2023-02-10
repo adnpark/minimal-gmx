@@ -1,0 +1,7 @@
+{
+  "name": "minimal-gmx",
+  "packageManager": "yarn@3.3.1",
+  "workspaces": [
+    "protocol/*"
+  ]
+}

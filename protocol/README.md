@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Minimal Viable GMX
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This protocol implements a perpetual DEX resembling the GMX protocol. It is a minimal viable implementation of the protocol, and is not intended to be used in production.
 
-Try running some of the following tasks:
+## Constraints
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+- No Referral Program
+- No spot trading

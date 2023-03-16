@@ -1,8 +1,11 @@
 {
   "name": "minimal-gmx",
-  "packageManager": "yarn@3.3.1",
+  "repository": "https://github.com/adnpark/minimal-gmx.git",
+  "author": "adnpark",
+  "packageManager": "pnpm@7.2.1",
+  "private": true,
+  "version": "0.1.0",
   "workspaces": [
     "protocol/*"
-  ],
-  "version": "0.0.0"
+  ]
 }
